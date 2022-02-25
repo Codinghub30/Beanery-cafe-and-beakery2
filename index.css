@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1551529834-525807d6b4f3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGNhZmUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=500");
+  height: 921px;
+  width: 1500px;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  background-color: #000;
+}
+.navbar h1 {
+  color: red;
+}
+
+/* Navigation bar list style. */
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+.navbar ul li a {
+  display: flex;
+  padding: 13px 55px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: rgb(187, 183, 183);
+  border: 1px solid transparent;
+  transition: 0.6 ease;
+  margin-left: 66px;
+  margin-top: 30px;
+}
+.navbar a:hover {
+  color: #000;
+  background-color: #fff;
+}
+.title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: #ecc181ab;
+  font-size: 70px;
+  margin-top: 170px;
+}
+.btn {
+  float: right;
+  margin-right: 30px;
+}
+.btn input {
+  width: 238px;
+  border-radius: 25px;
+  margin-left: 20px;
+  height: 30px;
+  margin-top: 30px;
+}
+.btn button {
+  width: 145px;
+  height: 35px;
+  margin-right: 34px;
+  float: right;
+}
+
+/* .btn1 {
+  margin-top: 300px;
+  margin-left: 180px;
+} */
+.btn1 button {
+  width: 140px;
+  height: 32px;
+  margin-top: 56px;
+  margin-left: 700px;
+}
+
+.intex {
+  font-size: 1.3rem;
+  /* margin-left: 835px; */
+  text-align: center;
+  justify-content: center;
+  margin-top: 418px;
+
+  color: white;
+  font-family: cursive;
+}
+
+#home {
+  margin-top: 235px;
+  margin-left: 235px;
+}
+#home p {
+  margin-left: -64px;
+  font-size: 1.4rem;
+}
+#home h1 {
+  margin-left: -65px;
+  font-size: 30px;
+  font-family: system-ui;
+}
+#home img {
+  float: left;
+  margin-top: -245px;
+  margin-left: 570px;
+}
+
+#home1 h1 {
+  font-size: 40px;
+  margin-left: 529px;
+  margin-top: 279px;
+  font-family: "Dancing Script", cursive;
+  justify-content: space-around;
+}
+
+#home .coloreffect img {
+  width: 400px;
+  height: 300px;
+  margin-top: -348px;
+  margin-left: 0px;
+}
+
+/* speaciality section */
+
+#speciality {
+  margin: 34px;
+  display: flex;
+}
+.box {
+  border: 2px solid brown;
+  padding: 34px;
+  margin: 2px 20px;
+  border-radius: 28px;
+  margin-bottom: 20px;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+.box img {
+  margin-left: 174px;
+}
+
+#home1 h1 {
+  font-size: 3rem;
+  text-decoration-line: overline;
+  text-decoration-style: double;
+}
+
+#contactpage {
+  margin: 5px 20px;
+  padding: 30px;
+  margin-top: 50px;
+  background-color: grey;
+  opacity: 0.9;
+}
+
+#contactpage .heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.ph {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.enquiry {
+  font-size: 1.2rem;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+#bookseat {
+  margin-top: 80px;
+  text-align: center;
+  padding: 5px 30px;
+}
+.heading1 {
+  text-decoration-line: overline;
+  font-size: 2rem;
+  margin-top: 50px;
+  padding: 30px 30px;
+}
+
+.form1 h3 {
+  color: black;
+  position: absolute;
+  /* margin-left: 1086px; */
+  font-size: 30px;
+  top: 80%;
+  left: 1011px;
+}
+input[type="text"],
+select {
+  width: 32%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 500px;
+}
+
+input[type="submit"] {
+  width: 40%;
+  height: 50%;
+  background-color: #4caf50;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+.form1 label {
+  margin-left: -360px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 53px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-top: 107px;
+  margin-left: 139px;
+  height: 58px;
+}
+
+/* Add a hover effect if you want  */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.text {
+  position: absolute;
+  top: 80%;
+  border: 1px solid transparent;
+  background-color: rgba(13, 138, 75, 0.596);
+  text-align: center;
+  color: white;
+}
+.text button {
+  text-decoration: none;
+  background-color: grey;
+  color: white;
+  border-radius: 1px;
+  border: 1px solid transparent;
+  padding: 6px 8px;
+  margin-left: -135px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 500px) {
+  #contactus {
+    margin-left: 300px;
+    width: 780px;
+  }
+
+  .media {
+    display: flex;
+  }
+
+  .title h1 {
+    margin-left: 900px;
+    width: 746px;
+  }
+
+  #home {
+    width: 600px;
+    font-size: 37px;
+    font-family: system-ui;
+  }
+}

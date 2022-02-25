@@ -1,0 +1,302 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./png/homepage_pic.jpg");
+  height: 830px;
+  width: 1514px;
+}
+.navbar {
+  display: flex;
+  border: 1px solid black;
+  /* justify-content: space-around; */
+  background-color: #000;
+  height: 91px;
+}
+
+.navbar h1 {
+  color: red;
+}
+
+/* Navigation bar list style. */
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+.navbar ul li a {
+  display: flex;
+  padding: 4px 57px;
+  text-decoration: none;
+  border-radius: 50px;
+  color: rgb(187, 183, 183);
+  border: 1px solid transparent;
+  transition: 0.6 ease;
+  margin-left: 66px;
+  margin-top: -71px;
+}
+.navbar a:hover {
+  color: #000;
+  background-color: #fff;
+}
+.shadow img {
+  position: absolute;
+  width: 101%;
+  height: 142px;
+  bottom: -93px;
+  left: 0;
+  margin-bottom: -50px;
+}
+
+.middle-content {
+  margin-top: 0px;
+  margin-left: 450px;
+}
+.middle-content h3 {
+  color: white;
+  font-weight: 500px;
+  font-family: monospace;
+  font-size: 3.5rem;
+  margin-left: -219px;
+  margin-right: 248px;
+  margin-top: 99px;
+}
+
+.middle-content p {
+  margin-right: 300px;
+  margin-left: -184px;
+  color: brown;
+  font-size: 1.2rem;
+  display: flex;
+  font-size: 1.7rem;
+  font-family: monospace;
+  text-shadow: 2px 2px #5c314aab;
+}
+
+.menu1 img {
+  width: 462px;
+  height: 300px;
+  margin-top: 400px;
+}
+
+.menu2 img {
+  width: 478px;
+  height: 329px;
+  margin-top: -350px;
+  float: right;
+}
+
+.content p {
+  margin-top: -360px;
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 482px;
+  margin-right: 522px;
+  font-style: italic;
+}
+
+/* TEXT */
+
+.text4 h2 {
+  font-size: 1.7rem;
+  position: absolute;
+  top: 200%;
+  left: 35%;
+  text-shadow: 1px 1px red;
+  font-family: cursive;
+  text-decoration-line: underline;
+}
+
+/* slideshow */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  width: 2000px;
+  height: 500px;
+  position: relative;
+  left: 35%;
+  margin-top: 750px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-left: -60px;
+  background-color: black;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ff0c0c;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 540px;
+  border-radius: 3px 0 0 3px;
+  color: red;
+  background-color: black;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #5f198d;
+  font-size: 1.5rem;
+  padding: 8px 12px;
+  position: absolute;
+  top: -55px;
+  right: 30%;
+  width: 100%;
+  text-align: center;
+  text-decoration: overline;
+  text-shadow: 1.2px 1.2px #44f4fd;
+  text-decoration-style: double;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #3248b7;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 30px;
+  width: 32px;
+  margin: 21px 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: tomato;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.final p {
+  margin-left: 70px;
+  margin-top: 160px;
+}
+
+.semi h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 205px;
+}
+
+.semi p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shadow img {
+    width: 1520px;
+    margin-bottom: 20px;
+  }
+  .slideshow-container {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 1100px;
+  }
+
+  /* .mySlides.fade {
+    margin-left: 500px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 1100px;
+  } */
+
+  .dot {
+    position: relative;
+    left: 166%;
+  }
+  .next {
+    position: absolute;
+    left: 87%;
+    width: 45px;
+  }
+  .text {
+    position: relative;
+    left: 0%;
+    margin-top: -520px;
+  }
+  .prev {
+    margin-left: -340px;
+  }
+
+  .numbertext {
+    margin-left: 300px;
+  }
+
+  footer {
+    margin-left: 510px;
+    /* margin-right: 57px; */
+    margin-top: 166px;
+    width: 300px;
+  }
+
+  .text4 h2 {
+    margin-left: 386px;
+    margin-top: 150px;
+    width: 500px;
+  }
+}

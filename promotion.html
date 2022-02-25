@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="promotion.css" />
+    <title>PROMOTION/EVENTS</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <img src="./png/download.png" alt="" style="width: 80px" />
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu3.html">MENU</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+            <li><a href="delivery.html">DELIVERY </a></li>
+            <li><a href="promotion.html"> PROMOTION/EVENTS </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="shadow">
+        <img src="./png/shadow.png" alt="" />
+      </div>
+
+      <div class="content">
+        <h3>Event/Karaoke</h3>
+      </div>
+    </header>
+
+    <div class="para">
+      <marquee>
+        <h3>
+          Due to covid-19, we only allow 50 customers for events(As per
+          government guidelines. we follow all the rule of covid-19.
+        </h3></marquee
+      >
+    </div>
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="./png/hall2.jpg" style="width: 70%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="./png/hall3.jpg" style="width: 70%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="./png/hall6.jpg" style="width: 70%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="./png/hall4.jpg" style="width: 70%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="./png/hall5.jpeg" style="width: 70%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="./png/hall7.jpg" style="width: 70%" />
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./png/hall2.jpg"
+            style="width: 100%"
+            onclick="currentSlide(1)"
+            alt="BANQUET HALL"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./png/hall3.jpg"
+            style="width: 100%"
+            onclick="currentSlide(2)"
+            alt="HALL2"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./png/hall6.jpg"
+            style="width: 100%"
+            onclick="currentSlide(3)"
+            alt="OUR CAFE"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./png/hall4.jpg"
+            style="width: 100%"
+            onclick="currentSlide(4)"
+            alt="SITTING ARRANGEMENTS FOR EVENTS"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./png/hall5.jpeg"
+            style="width: 100%"
+            onclick="currentSlide(5)"
+            alt="HALL3"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="./png/hall7.jpg"
+            style="width: 100%"
+            onclick="currentSlide(6)"
+            alt=" FOOD COUNTER"
+          />
+        </div>
+      </div>
+    </div>
+
+    <h3>Sign for Event Registration.</h3>
+
+    <div>
+      <form action="submit.html">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="pnumber">phone number:</label>
+        <input type="number" id="pnumber" name="pnumber" /><br /><br />
+        <label for="gmail">G-mail:</label>
+        <input type="gmail" id="gmail" name="gmail" /><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <footer>
+      <div class="final">
+        <p>
+          All Rights Reserved 2021 - Beanery Cafe and Bakery | Developed By
+          "ANUP KUMAR CHAKRA"
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="promotion.js"></script>
+</html>

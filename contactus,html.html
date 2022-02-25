@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-UA-compactible" content="ie-edge" />
+    <title>india's best cafe</title>
+
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1170px)"
+      href="css/phone.css"
+    />
+    <style>
+      .navbar {
+        align-items: center;
+        margin-top: -135px;
+        height: 82px;
+        padding: 20px 34px;
+        width: 1447px;
+        margin-left: -24px;
+        border-radius: 11px;
+        display: flex;
+        border: 1px solid transperent;
+        justify-content: space-around;
+        background-color: #000;
+      }
+      .navbar h1 {
+        color: red;
+      }
+
+      /* Navigation bar list style. */
+      .navbar ul {
+        display: flex;
+      }
+
+      .navbar ul li {
+        list-style: none;
+        font-size: 1.3rem;
+      }
+      .navbar ul li a {
+        display: flex;
+        padding: 0px 53px;
+        text-decoration: none;
+        border-radius: 50px;
+        color: rgb(187, 183, 183);
+        border: 1px solid transparent;
+        transition: 0.6 ease;
+        margin-left: 66px;
+        margin-top: 22px;
+      }
+      .navbar a:hover {
+        color: #000;
+        background-color: #fff;
+      }
+      .navbar a:hover {
+        color: #000;
+        background-color: #fff;
+      }
+      input[type="text"],
+      select {
+        width: 70%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      input[type="submit"] {
+        width: 70%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img
+          src="./png/download.png "
+          alt="myonlinecafe.com"
+          style="width: 80px"
+        />
+        <!-- <h1>
+        <marquee direction="right" scrolldelay="0.5" width="300%"
+          >Wellcome to Beanery cafe and bakery.</marquee
+        >
+      </h1> -->
+      </div>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="menu3.html">MENU</a></li>
+          <li><a href="#contactus">CONTACT US</a></li>
+          <li><a href="delivery.html">DELIVERY </a></li>
+          <li><a href="promotion.html"> PROMOTION/EVENTS </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>SIGN UP</h3>
+
+    <div>
+      <form action="submit.html">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="pnumber">phone number:</label>
+        <input type="number" id="pnumber" name="pnumber" /><br /><br />
+        <label for="gmail">G-mail:</label>
+        <input type="gmail" id="gmail" name="gmail" /><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1516813127689-b75da14cce70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1304&q=750"); */
+  background-color: rgb(46, 43, 43);
+}
+
+.logo h2 {
+  color: antiquewhite;
+}
+.navbar {
+  display: fixed;
+  border: 2px solid transparent;
+  width: fit-content;
+  background-color: gray;
+  margin-top: 70px;
+}
+.navbar ul li {
+  list-style: circle;
+  padding: 20px 10px;
+}
+.navbar ul a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: rgb(3, 5, 4);
+  padding: 10px 50px;
+  justify-content: space-around;
+  margin: 6px 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.navbar ul li a:hover {
+  background-color: darkgray;
+}
+.logo h3 {
+  margin-top: 10px;
+  color: white;
+  width: 20px;
+}
+.logo img {
+  width: 200px;
+}
+
+.img img {
+  position: absolute;
+  top: 20%;
+  left: 51%;
+  width: 743px;
+  height: 460px;
+}
+.middle-content {
+  margin-top: -378px;
+  margin-left: 450px;
+}
+.middle-content h3 {
+  color: white;
+  font-weight: 500px;
+  font-family: monospace;
+  font-size: 3.5rem;
+  margin-left: 54px;
+  margin-top: 50px;
+}
+
+.middle-content p {
+  margin-left: 0px;
+  color: brown;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+/* hot drinks */
+
+.heading {
+  color: aliceblue;
+  font-size: 2.6rem;
+  text-decoration: overline;
+  text-decoration-style: double;
+  margin-top: 280px;
+  text-align: center;
+}
+#hotdrink {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+
+  grid-column-gap: 90px;
+  grid-row-gap: 80px;
+  margin-left: 50px;
+}
+
+#hotdrink img {
+  width: 103%;
+  height: 251px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: scale(1.04);
+}
+.item img:hover {
+  transform: scale(1.15);
+}
+
+.item h4 {
+  color: wheat;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+.item button {
+  padding: 7px 7px;
+  cursor: pointer;
+}
+
+/* REFRESHNING BEVERAGES */
+
+#refreshningbeverages .heading {
+  color: white;
+  font-size: 2.6rem;
+  text-decoration: overline;
+  text-decoration-style: double;
+  text-align: center;
+}
+
+#refreshningbeverages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+  grid-column-gap: 90px;
+  grid-row-gap: 80px;
+  margin-left: 40px;
+}
+
+#refreshningbeverages img {
+  width: 94%;
+  height: 251px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: scale(1.04);
+}
+
+/* MILK-SHAKE */
+.heading h3 {
+  color: aliceblue;
+  font-size: 2.6rem;
+  text-decoration: overline;
+  text-decoration-style: double;
+}
+
+#milkshake {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+  /* margin-top: 0px; */
+  grid-column-gap: 140px;
+  grid-row-gap: 100px;
+  margin-left: 20px;
+}
+
+#milkshake img {
+  width: 101%;
+  height: 240px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: scale(1.04);
+}
+
+/* SANDWITCHES */
+#sandwitches .heading {
+  color: white;
+  font-size: 2.6rem;
+  text-decoration: overline;
+  text-decoration-style: double;
+}
+
+#sandwitches {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+  grid-column-gap: 90px;
+  grid-row-gap: 80px;
+  margin-left: 50px;
+}
+
+#sandwitches img {
+  width: 90%;
+  height: 240px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: scale(1.04);
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 53px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 107px;
+
+  height: 58px;
+}
+
+/* Add a hover effect if you want  */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  width: 200px;
+  height: 200px;
+  padding: 70px 35px;
+}
