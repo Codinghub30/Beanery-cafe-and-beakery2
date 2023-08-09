@@ -2,7 +2,7 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./png/billboard.jpg");
   height: 690px;
-  width: 1500px;
+  width: 1409px;
 }
 .navbar {
   display: flex;
